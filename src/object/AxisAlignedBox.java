@@ -18,8 +18,8 @@ public class AxisAlignedBox extends Geometry {
 	/**
 	 * Point 1
 	 */
-	public Vector3 lbf;
-	/*
+	public Point3 lbf;
+	/**
 	 * Point 2
 	 */
 	public Point3 run;
@@ -35,7 +35,7 @@ public class AxisAlignedBox extends Geometry {
 	 *            Point 2.
 	 */
 
-	public AxisAlignedBox(Color color, Vector3 lbf, Point3 run) {
+	public AxisAlignedBox(Color color, Point3 lbf, Point3 run) {
 		super(color);
 		this.lbf = lbf;
 		this.run = run;

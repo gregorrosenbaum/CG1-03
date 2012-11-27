@@ -53,7 +53,7 @@ public abstract class Camera {
 		this.e = e;
 		this.g = g;
 		this.t = t;
-		this.w = g.mul(1 / g.magnitude).mul(-1);
+		this.w = g.mul(-1.0 / g.magnitude);
 		this.u = t.x(w).mul(1.0 / t.x(w).magnitude);
 		this.v = w.x(u);
 	}

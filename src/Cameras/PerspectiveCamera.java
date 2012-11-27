@@ -43,7 +43,7 @@ public class PerspectiveCamera extends Camera {
 		Point3 o = this.e;
 		Vector3 p1 = this.w.mul(-1);
 		double p2 = h / 2.0;
-		double p3 = Math.tan(angle);
+		double p3 = Math.tan(angle / 2.0);
 		Vector3 part1 = p1.mul((p2) / p3);
 		Vector3 part2 = u.mul(x - ((w - 1) / 2.0));
 		Vector3 part3 = v.mul(y - ((h - 1) / 2.0));

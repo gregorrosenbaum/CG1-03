@@ -72,7 +72,7 @@ public class RayTracer extends Canvas {
 				// berechnete Farbe
 				img.getRaster().setDataElements(
 						x,
-						y,
+						height - y -1 ,
 						img.getColorModel().getDataElements(
 								(world.hit(cam.rayFor(width, height, x, y))
 										.toInt()), null));

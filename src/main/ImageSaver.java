@@ -69,35 +69,35 @@ public class ImageSaver {
 //		Geometry[] objects = new Geometry[] { new Plane(new Color(0, 1, 0),
 //				new Point3(0, -1, 0), new Normal3(0, 1, 0)) };
 //		PerspectiveCamera testCam = new PerspectiveCamera(new Point3(0, 0, 0),
-//				new Vector3(0, 0, -1), new Vector3(0, -1, 0), Math.PI / 4);
+//				new Vector3(0, 0, -1), new Vector3(0, 1, 0), Math.PI / 4);
 
 		// AK 2 Abbildung 6: Kugel
-		// Geometry[] objects = new Geometry[] { new Sphere(new Color(1, 0, 0),
-		// new Point3(0, 0,
-		// -3), 0.5)};
-		// PerspectiveCamera testCam = new PerspectiveCamera(new Point3(0, 0,
-		// 0), new Vector3(0, 0, -1), new Vector3(0, 1, 0), Math.PI / 4);
+//		 Geometry[] objects = new Geometry[] { new Sphere(new Color(1, 0, 0),
+//		 new Point3(0, 0,
+//		 -3), 0.5)};
+//		 PerspectiveCamera testCam = new PerspectiveCamera(new Point3(0, 0,
+//		 0), new Vector3(0, 0, -1), new Vector3(0, 1, 0), Math.PI / 4);
 
 		// AK 3 Abbildung 7: Box
-		// Geometry[] objects = new Geometry[] { new AxisAlignedBox(new Color(0,
-		// 0, 1),new Vector3(-0.5, 0, -0.5),new Point3(0.5, 1,
-		// 0.5)) };
-		// PerspectiveCamera testCam = new PerspectiveCamera(new Point3(3, 3,
-		// 3), new Vector3(-3, -3, -3), new Vector3(0, -1, 0), Math.PI / 4);
+		 Geometry[] objects = new Geometry[] { new AxisAlignedBox(new Color(0,
+		 0, 1),new Point3(-0.5, 0, -0.5),new Point3(0.5, 1,
+		 0.5)) };
+		 PerspectiveCamera testCam = new PerspectiveCamera(new Point3(3, 3,
+		 3), new Vector3(-3, -3, -3), new Vector3(0, 1, 0), Math.PI / 4);
 
 		// AK 8 Abbildung 8: Dreieck
-		// Geometry[] objects = new Geometry[] { new Triangle(new Color (1, 0,
-		// 1), new Point3(-0.5, 0.5, -3), new Point3 (0.5, 0.5, -3), new Point3
-		// (0.5, -0.5, -3))};
-		// PerspectiveCamera testCam = new PerspectiveCamera(new Point3(0, 0,
-		// 0), new Vector3(0, 0, -1), new Vector3(0, -1, 0), Math.PI / 4);
+//		 Geometry[] objects = new Geometry[] { new Triangle(new Color (1, 0,
+//		 1), new Point3(-0.5, 0.5, -3), new Point3 (0.5, 0.5, -3), new Point3
+//		 (0.5, -0.5, -3))};
+//		 PerspectiveCamera testCam = new PerspectiveCamera(new Point3(0, 0,
+//		 0), new Vector3(0, 0, -1), new Vector3(0, 1, 0), Math.PI / 4);
 
 		// AK 9 Abbildung 9: Zwei Kugeln perspektivisch.
-		 Geometry[] objects = new Geometry[] { new Sphere(new Color(1, 0, 0),
-		 new Point3(-1, 0, -3), 0.5),
-		 new Sphere(new Color(1, 0, 0), new Point3(1, 0, -6), 0.5) };
-		 PerspectiveCamera testCam = new PerspectiveCamera(new Point3(0, 0,
-		 0), new Vector3(0, 0, -1), new Vector3(0, 1, 0), Math.PI / 4);
+//		 Geometry[] objects = new Geometry[] { new Sphere(new Color(1, 0, 0),
+//		 new Point3(-1, 0, -3), 0.5),
+//		 new Sphere(new Color(1, 0, 0), new Point3(1, 0, -6), 0.5) };
+//		 PerspectiveCamera testCam = new PerspectiveCamera(new Point3(0, 0,
+//		 0), new Vector3(0, 0, -1), new Vector3(0, 1, 0), Math.PI / 4);
 
 		// AK 10 Abbildung 10: Zwei Kugeln orthographisch.
 //		 Geometry[] objects = new Geometry[] { new Sphere(new Color(1, 0, 0),
